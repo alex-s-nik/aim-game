@@ -1,0 +1,18 @@
+.aim {
+  
+  border-radius: 50%;
+  
+}
+.non-filled {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.filled {
+  background-color: black;
+  border: 1px solid white;
+}
+.game-field {
+  width: 60px;
+  height: 60px;
+}
