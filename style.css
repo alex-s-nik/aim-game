@@ -1,18 +1,43 @@
 .aim {
   
   border-radius: 50%;
-  
-}
-.non-filled {
   background-color: white;
   border: 1px solid black;
+  
 }
 
-.filled {
-  background-color: black;
-  border: 1px solid white;
-}
 .game-field {
-  width: 60px;
-  height: 60px;
+  position: relative;
+  background-color: blue;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  height: 100vh;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header__game-panel {
+  display: none;
+}
+
+.start-game {
+  background-color: cornflowerblue;
+  cursor: pointer;
+  color: aliceblue;
+  padding: 5px;
+}
+
+.start-game:hover {
+  background-color:cadetblue;
 }
