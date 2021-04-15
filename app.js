@@ -84,7 +84,7 @@ function startGameButtonClick() {
    
     let seconds = Math.round(distance / 1000) % 60;
     console.log(`${seconds}`);
-    gameTimerField.textContent = `${minutes}:${seconds < 9 ? "0" : ""}${seconds}`;
+    gameTimerField.textContent = `${minutes}:${seconds <= 9 ? "0" : ""}${seconds}`;
   
   }, 500);
   showAim();

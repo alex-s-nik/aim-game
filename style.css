@@ -28,6 +28,10 @@ body {
 
 .header__game-panel {
   display: none;
+  background-color:dimgray;
+  color: antiquewhite;
+  border-bottom: darkgray 2px solid;
+  padding: 10px;
 }
 
 .menu {
