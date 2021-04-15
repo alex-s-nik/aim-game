@@ -1,14 +1,13 @@
 .aim {
-  
   border-radius: 50%;
   background-color: white;
   border: 1px solid black;
-  
+
 }
 
 .game-field {
   position: relative;
-  background-color: blue;
+  /* background-color: blue; */
   flex-grow: 1;
   display: flex;
   align-items: center;
@@ -31,13 +30,25 @@ body {
   display: none;
 }
 
+.menu {
+  /* background-color: brown; */
+  padding: 20px;
+  border: coral 1px solid;
+  border-radius: 2px;
+}
 .start-game {
   background-color: cornflowerblue;
   cursor: pointer;
   color: aliceblue;
   padding: 5px;
+  text-align: center;
 }
 
 .start-game:hover {
   background-color:cadetblue;
+}
+
+.description,
+.results {
+  padding: 10px;
 }
